@@ -4,7 +4,7 @@ def turn_count(board)
   board.each do |user|
     if user =! "" || user =! " "
       turns += 1
-  end
+    end
   return turn_count
 end
 end
