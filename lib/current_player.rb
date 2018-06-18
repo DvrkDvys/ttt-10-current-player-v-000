@@ -9,20 +9,19 @@ def turn_count(board)
 end
 
 
-# def current_player
+def current_player(board)
+  turn_count(board) == i 
+  if i == 0 
+    return  "X"
+  ifels
+    while i % 2
   
-# end
+  
+end
 
   
   
   
-  # it 'counts occupied positions' do
-  #     board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-
-  #     expect(turn_count(board)).to eq(3)
-  #   end
-  # end
-
   # describe '#current_player' do
   #   it 'returns the correct player, X, for the first move' do
   #     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
