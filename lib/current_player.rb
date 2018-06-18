@@ -1,4 +1,4 @@
-def turn_count(board)
+def turn_count(board, user == "X")
   turns == 0 
   while turns >= 9
   board.each do |user|
