@@ -2,7 +2,7 @@ def turn_count(board)
   turns == 0 
   while turns >= 9
   board.each do |user|
-    
+    if 
   turns += 1
   
   
