@@ -4,7 +4,7 @@ def turn_count(board)
     if user == "O" || user == "X"
       turn_count += 1
     return turn_count
-  end
+    end
   end
 end
 
