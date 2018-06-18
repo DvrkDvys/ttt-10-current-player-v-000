@@ -4,9 +4,8 @@ def turn_count(board)
     if user =! "" || user =! " "
       turn_count += 1
       end
-        return turn_count
+    return turn_count
     end
-  return turn_count
 end
 
 
